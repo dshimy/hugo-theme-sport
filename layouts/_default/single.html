@@ -1,0 +1,8 @@
+{{ define "main" }}
+  <header>
+    <a href="/">Home</a>
+  </header>
+  <h1>{{.Title}}</h1>
+  <p class="text-muted">{{ dateFormat "Jan 2, 2020" .Date }}</p>
+  {{.Content}}
+{{ end }}

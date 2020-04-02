@@ -1,0 +1,59 @@
+/* Background */               .chroma { color: #ECEFF4; background-color: #3B4252}
+/* Other */                    .chroma .x { color: #BF616A }
+/* LineTableTD */              .chroma .lntd { vertical-align: top; padding: 0; margin: 0; border: 0; }
+/* LineTable */                .chroma .lntable { border-spacing: 0; padding: 0; margin: 0; border: 0; width: auto; overflow: auto; display: block; background-color: #3B4252; }
+/* LineHighlight */            .chroma .hl  { display: block; width: 100%; background-color: #EBCB8B; }
+/* LineNumbersTable */         .chroma .lnt { margin-right: 0.6em; padding: 0 0.4em 0 0.4em; color: #D8DEE9; }
+/* LineNumbers */              .chroma .ln  { margin-right: 0.6em; padding: 0 0.4em 0 0.4em; color: #D8DEE9; }
+/* Keyword */                  .chroma .k   { color: #A3BE8C }
+/* KeywordConstant */          .chroma .kc  { color: #BF616A }
+/* KeywordDeclaration */       .chroma .kd  { color: #81A1C1 }
+/* KeywordNamespace */         .chroma .kn  { color: #A3BE8C }
+/* KeywordPseudo */            .chroma .kp  { color: #A3BE8C }
+/* KeywordReserved */          .chroma .kr  { color: #81A1C1 }
+/* KeywordType */              .chroma .kt  { color: #B48EAD }
+/* NameBuiltin */              .chroma .nb  { color: #D08770 }
+/* NameBuiltinPseudo */        .chroma .bp  { color: #81A1C1 }
+/* NameClass */                .chroma .nc  { color: #81A1C1 }
+/* NameConstant */             .chroma .no  { color: #BF616A }
+/* NameDecorator */            .chroma .nd  { color: #81A1C1 }
+/* NameEntity */               .chroma .ni  { color: #BF616A }
+/* NameException */            .chroma .ne  { color: #BF616A }
+/* NameFunction */             .chroma .nf  { color: #81A1C1 }
+/* NameTag */                  .chroma .nt  { color: #81A1C1 }
+/* NameVariable */             .chroma .nv  { color: #81A1C1 }
+/* LiteralString */            .chroma .s   { color: #8FBCBB }
+/* LiteralStringAffix */       .chroma .sa  { color: #8FBCBB }
+/* LiteralStringBacktick */    .chroma .sb  { color: #586e75 }
+/* LiteralStringChar */        .chroma .sc  { color: #8FBCBB }
+/* LiteralStringDelimiter */   .chroma .dl  { color: #8FBCBB }
+/* LiteralStringDouble */      .chroma .s2  { color: #8FBCBB }
+/* LiteralStringEscape */      .chroma .se  { color: #BF616A }
+/* LiteralStringInterpol */    .chroma .si  { color: #8FBCBB }
+/* LiteralStringOther */       .chroma .sx  { color: #8FBCBB }
+/* LiteralStringRegex */       .chroma .sr  { color: #B48EAD }
+/* LiteralStringSingle */      .chroma .s1  { color: #8FBCBB }
+/* LiteralStringSymbol */      .chroma .ss  { color: #8FBCBB }
+/* LiteralNumber */            .chroma .m   { color: #8FBCBB }
+/* LiteralNumberBin */         .chroma .mb  { color: #8FBCBB }
+/* LiteralNumberFloat */       .chroma .mf  { color: #8FBCBB }
+/* LiteralNumberHex */         .chroma .mh  { color: #8FBCBB }
+/* LiteralNumberInteger */     .chroma .mi  { color: #8FBCBB }
+/* LiteralNumberIntegerLong */ .chroma .il  { color: #8FBCBB }
+/* LiteralNumberOct */         .chroma .mo  { color: #8FBCBB }
+/* Operator */                 .chroma .o   { color: #A3BE8C }
+/* OperatorWord */             .chroma .ow  { color: #A3BE8C }
+/* Comment */                  .chroma .c   { color: #586e75 }
+/* CommentHashbang */          .chroma .ch  { color: #586e75 }
+/* CommentMultiline */         .chroma .cm  { color: #586e75 }
+/* CommentSingle */            .chroma .c1  { color: #586e75 }
+/* CommentSpecial */           .chroma .cs  { color: #A3BE8C }
+/* CommentPreproc */           .chroma .cp  { color: #A3BE8C }
+/* CommentPreprocFile */       .chroma .cpf { color: #A3BE8C }
+/* GenericDeleted */           .chroma .gd  { color: #B48EAD }
+/* GenericEmph */              .chroma .ge  { font-style: italic }
+/* GenericError */             .chroma .gr  { color: #B48EAD; font-weight: bold }
+/* GenericHeading */           .chroma .gh  { color: #BF616A }
+/* GenericInserted */          .chroma .gi  { color: #A3BE8C }
+/* GenericStrong */            .chroma .gs  { font-weight: bold }
+/* GenericSubheading */        .chroma .gu  { color: #81A1C1 }

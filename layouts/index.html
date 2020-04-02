@@ -1,0 +1,10 @@
+{{ define "main" }}
+  <h1>{{ .Site.Title }}</h1>
+  {{.Content}}
+  {{ range .Site.RegularPages }}
+    <div class="list-item">
+      <div class="list-title"><a href="{{ .Permalink }}">{{ .Title }}</a></div>
+      <div class="list-summary">{{.Summary}}</div>
+    </div>
+  {{ end }}
+{{ end }}
