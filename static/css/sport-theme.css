@@ -31,6 +31,9 @@ a {
 a:hover {
   color: #81A1C1;
 }
+pre {
+  margin-bottom: 0;
+}
 table {
   width: 100%;
   margin-bottom: 1rem;
@@ -49,6 +52,9 @@ table td {
 table tr:last-child td {
   padding: 8px 10px;
   border: none;
+}
+.highlight {
+  margin-bottom: 10px;
 }
 .highlight > .chroma {
    padding: 10px 20px;
