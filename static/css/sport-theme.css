@@ -1,9 +1,23 @@
+:root {
+  --nord-dark0: #2E3440;
+  --nord-dark1: #3B4252;
+  --nord-dark2: #434C5E;
+  --nord-dark4: #4C566A;
+  --nord-white0: #D8DEE9;
+  --nord-white1: #E5E9F0;
+  --nord-white2: #ECEFF4;
+  --nord-blue0: #81A1C1;
+  --nord-blue1: #5E81AC;
+  --border-radius: 4px;
+  --weight-normal: 400;
+  --weight-bold: 600;
+}
 body {
   font-family: 'Roboto', sans-serif;
-  color: #3B4252;
-  font-weight: 400;
+  color: var(--nord-dark1);
+  font-weight: var(--weight-normal);
   font-size: 16px;
-  line-height: 25px;
+  line-height: 1.5rem;
 }
 .container {
   max-width: 800px;
@@ -11,25 +25,25 @@ body {
 h1, h2, h3, h4, h5 {
   font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
   font-weight: 800;
-  color: #4C566A;
+  color: var(--nord-dark4);
 }
-h1 { font-size: 36px; }
-h2 { font-size: 28px; }
-h3 { font-size: 22px; }
-h4 { font-size: 16px; }
+h1 { font-size: 2.5rem; line-height: 3.0rem; }
+h2 { font-size: 2.0rem; line-height: 2.5rem; margin-top: 2rem; }
+h3 { font-size: 1.5rem; line-height: 2.0rem; margin-top: 2rem; }
+h4 { font-size: 1.0rem; line-height: 1.5rem; margin-top: 2rem; }
 blockquote {
-  border-left: 4px solid #4C566A;
-  padding: 5px 0 5px 10px;
-  margin-left: 20px;
+  border-left: 0.25rem solid var(--nord-dark4);
+  padding: 0.5rem 0 0.5rem 1rem;
+  margin-left: 1rem;
 }
 blockquote p:last-child {
   margin-bottom: 0;
 }
 a {
-  color: #5E81AC;
+  color: var(--nord-blue1);
 }
 a:hover {
-  color: #81A1C1;
+  color: var(--nord-blue0);
 }
 pre {
   margin-bottom: 0;
@@ -38,44 +52,42 @@ table {
   width: 100%;
   margin-bottom: 1rem;
   border-spacing: 2px;
-  border-color: #4C566A;
-  background-color: #ECEFF4;
+  border-color: var(--nord-dark4);
+  background-color: var(--nord-white2);
 }
 table th {
-  background-color: #D8DEE9;
-  padding: 8px 10px;
+  background-color: var(--nord-white0);
+  padding: 0.5rem;
 }
 table td {
-  padding: 8px 10px;
-  border-bottom: 1px solid #D8DEE9;
+  padding: 0.5rem;
+  border-bottom: 1px solid var(--nord-white0);
 }
 table tr:last-child td {
-  padding: 8px 10px;
+  padding: 0.5rem;
   border: none;
 }
 .highlight {
-  margin-bottom: 10px;
+  margin-bottom: 1rem;
 }
 .highlight > .chroma {
-   padding: 10px 20px;
-   border-radius: 4px;
+   padding: 0.5rem 1.5rem;
+   border-radius: var(--border-radius);
 }
 .list-item {
-  margin: 20px 0;
+  margin: 1.5rem 0;
 }
 .list-item .list-title {
-  font-weight: 600;
+  font-weight: var(--weight-bold);
 }
 .list-item .list-summary {
-
 }
 header {
-  margin-bottom: 10px;
+  margin-bottom: 1rem;
 }
 footer {
-  margin-top: 10px;
-  border-top: 1px solid #D8DEE9;
-  padding-top: 10px;
-  margin-bottom: 40px;
-  font-size: 14px;
+  margin-top: 1rem;
+  border-top: 1px solid var(--nord-white0);
+  padding-top: 1rem;
+  margin-bottom: 2rem;
 }
